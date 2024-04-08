@@ -1,0 +1,25 @@
+body {
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+input{
+  display: block;
+}
+
+form, h1{
+  margin: 10px;
+  padding: 5px;
+}
+
+h1{
+  margin: 10px;
+  text-align: center;
+} 
+p {
+  font-size: 10;
+  margin: 10px;
+  text-align: center;
+}

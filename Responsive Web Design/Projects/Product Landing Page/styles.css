@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header-img {
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index:1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color:blue;
+}
+
+iframe {
+  display: block;
+  width: 75%;
+  margin: 5% auto;
+
+}
+
+.desc-grid {
+  display: flex;
+  height: auto;
+  margin-top: 75px;
+  align-items: center;
+}
+
+.icon{
+  margin-right: 5%;
+  color: orangered;
+}
+
+.desc-content p{  
+  font-family: Helvetica, sans;
+  font-size: 17px;
+}
+
+.fa-certificate {
+  margin-right: 7px;
+  margin-left: 10px;
+}
+
+
+#nav-bar{
+  background-color: gray;
+  display:flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5%;
+}
+
+body {
+  padding-top: 75px; 
+}
+
+
+nav > ul {
+  width: 45vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: blue;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  
+}
+
+li > a {
+  color: white; 
+  text-decoration: none;
+  font-size: 25px; 
+}
+
+form {
+  width: 5%;
+  margin: 0 auto;
+}
+
+#submit {
+  width: 50px;
+  margin-left: 50px;
+
+}
+
+#history > p {
+  padding:.3em .5em .1em 2em;
+  text-indent:1em;
+}
+
+#history {
+  border: 1px solid;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+   align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+}
